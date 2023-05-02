@@ -13,10 +13,16 @@
 		7763AAB82A0113240011687D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763AAB72A0113240011687D /* Constants.swift */; };
 		7763AABB2A0113600011687D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763AAB92A0113600011687D /* HomeVC.swift */; };
 		7763AABC2A0113600011687D /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7763AABA2A0113600011687D /* HomeVC.xib */; };
-		7763AABF2A0115990011687D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7763AABE2A0115990011687D /* Alamofire */; };
 		7763AAC22A0115B30011687D /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 7763AAC12A0115B30011687D /* SDWebImage */; };
+		7763AAC52A01165C0011687D /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763AAC42A01165C0011687D /* Photo.swift */; };
+		7763AAC82A011BA20011687D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763AAC72A011BA20011687D /* HomeViewModel.swift */; };
+		7763AACB2A011BBC0011687D /* HomeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763AACA2A011BBC0011687D /* HomeActions.swift */; };
+		7763AACD2A011CB00011687D /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763AACC2A011CB00011687D /* APIConstants.swift */; };
+		7763AAD02A011D0D0011687D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763AACF2A011D0D0011687D /* APIService.swift */; };
+		7763AAD32A01214C0011687D /* PageState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763AAD22A01214C0011687D /* PageState.swift */; };
+		7763AAD82A01249D0011687D /* HomeTableRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763AAD62A01249D0011687D /* HomeTableRowCell.swift */; };
+		7763AAD92A01249D0011687D /* HomeTableRowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7763AAD72A01249D0011687D /* HomeTableRowCell.xib */; };
 		77892EED2A00F9B400DEA3CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77892EEC2A00F9B400DEA3CB /* AppDelegate.swift */; };
-		77892EEF2A00F9B400DEA3CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77892EEE2A00F9B400DEA3CB /* SceneDelegate.swift */; };
 		77892EF62A00F9B500DEA3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77892EF52A00F9B500DEA3CB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -27,9 +33,16 @@
 		7763AAB72A0113240011687D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7763AAB92A0113600011687D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		7763AABA2A0113600011687D /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		7763AAC42A01165C0011687D /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		7763AAC72A011BA20011687D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7763AACA2A011BBC0011687D /* HomeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeActions.swift; sourceTree = "<group>"; };
+		7763AACC2A011CB00011687D /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		7763AACF2A011D0D0011687D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		7763AAD22A01214C0011687D /* PageState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageState.swift; sourceTree = "<group>"; };
+		7763AAD62A01249D0011687D /* HomeTableRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableRowCell.swift; sourceTree = "<group>"; };
+		7763AAD72A01249D0011687D /* HomeTableRowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableRowCell.xib; sourceTree = "<group>"; };
 		77892EE92A00F9B400DEA3CB /* WisdomLeaf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WisdomLeaf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77892EEC2A00F9B400DEA3CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77892EEE2A00F9B400DEA3CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		77892EF52A00F9B500DEA3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77892EFA2A00F9B500DEA3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,7 +53,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7763AAC22A0115B30011687D /* SDWebImage in Frameworks */,
-				7763AABF2A0115990011687D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +87,9 @@
 		7763AAB42A0113000011687D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				7763AAD42A0124780011687D /* View */,
+				7763AAC92A011BB10011687D /* Data */,
+				7763AAC62A011B970011687D /* ViewModel */,
 				7763AAC32A0115C50011687D /* Model */,
 				7763AAB52A0113080011687D /* Controller */,
 			);
@@ -101,8 +116,59 @@
 		7763AAC32A0115C50011687D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7763AAC42A01165C0011687D /* Photo.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7763AAC62A011B970011687D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7763AAC72A011BA20011687D /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7763AAC92A011BB10011687D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7763AACA2A011BBC0011687D /* HomeActions.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7763AACE2A011CBA0011687D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7763AACF2A011D0D0011687D /* APIService.swift */,
+				7763AACC2A011CB00011687D /* APIConstants.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		7763AAD12A0121430011687D /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				7763AAD22A01214C0011687D /* PageState.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		7763AAD42A0124780011687D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7763AAD52A01247D0011687D /* TableCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7763AAD52A01247D0011687D /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				7763AAD62A01249D0011687D /* HomeTableRowCell.swift */,
+				7763AAD72A01249D0011687D /* HomeTableRowCell.xib */,
+			);
+			path = TableCell;
 			sourceTree = "<group>";
 		};
 		77892EE02A00F9B400DEA3CB = {
@@ -124,12 +190,13 @@
 		77892EEB2A00F9B400DEA3CB /* WisdomLeaf */ = {
 			isa = PBXGroup;
 			children = (
+				7763AAD12A0121430011687D /* Enum */,
+				7763AACE2A011CBA0011687D /* API */,
 				7763AAB62A0113180011687D /* Constants */,
 				7763AAB12A00FD310011687D /* Extensions */,
 				7763AAAC2A00FB6C0011687D /* Splash */,
 				7763AAB42A0113000011687D /* Home */,
 				77892EEC2A00F9B400DEA3CB /* AppDelegate.swift */,
-				77892EEE2A00F9B400DEA3CB /* SceneDelegate.swift */,
 				77892EF52A00F9B500DEA3CB /* Assets.xcassets */,
 				77892EFA2A00F9B500DEA3CB /* Info.plist */,
 			);
@@ -153,7 +220,6 @@
 			);
 			name = WisdomLeaf;
 			packageProductDependencies = (
-				7763AABE2A0115990011687D /* Alamofire */,
 				7763AAC12A0115B30011687D /* SDWebImage */,
 			);
 			productName = WisdomLeaf;
@@ -185,7 +251,6 @@
 			);
 			mainGroup = 77892EE02A00F9B400DEA3CB;
 			packageReferences = (
-				7763AABD2A0115990011687D /* XCRemoteSwiftPackageReference "Alamofire" */,
 				7763AAC02A0115B30011687D /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 77892EEA2A00F9B400DEA3CB /* Products */;
@@ -204,6 +269,7 @@
 			files = (
 				7763AAB02A00FB7C0011687D /* SplashVC.xib in Resources */,
 				7763AABC2A0113600011687D /* HomeVC.xib in Resources */,
+				7763AAD92A01249D0011687D /* HomeTableRowCell.xib in Resources */,
 				77892EF62A00F9B500DEA3CB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,11 +281,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7763AACD2A011CB00011687D /* APIConstants.swift in Sources */,
+				7763AAC52A01165C0011687D /* Photo.swift in Sources */,
 				7763AAB82A0113240011687D /* Constants.swift in Sources */,
+				7763AAC82A011BA20011687D /* HomeViewModel.swift in Sources */,
 				77892EED2A00F9B400DEA3CB /* AppDelegate.swift in Sources */,
-				77892EEF2A00F9B400DEA3CB /* SceneDelegate.swift in Sources */,
+				7763AAD32A01214C0011687D /* PageState.swift in Sources */,
+				7763AAD82A01249D0011687D /* HomeTableRowCell.swift in Sources */,
 				7763AABB2A0113600011687D /* HomeVC.swift in Sources */,
+				7763AAD02A011D0D0011687D /* APIService.swift in Sources */,
 				7763AAAF2A00FB7C0011687D /* SplashVC.swift in Sources */,
+				7763AACB2A011BBC0011687D /* HomeActions.swift in Sources */,
 				7763AAB32A00FD390011687D /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,8 +425,8 @@
 				INFOPLIST_FILE = WisdomLeaf/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -381,8 +453,8 @@
 				INFOPLIST_FILE = WisdomLeaf/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -421,14 +493,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7763AABD2A0115990011687D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.6.4;
-			};
-		};
 		7763AAC02A0115B30011687D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
@@ -440,11 +504,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7763AABE2A0115990011687D /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7763AABD2A0115990011687D /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
 		7763AAC12A0115B30011687D /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7763AAC02A0115B30011687D /* XCRemoteSwiftPackageReference "SDWebImage" */;
